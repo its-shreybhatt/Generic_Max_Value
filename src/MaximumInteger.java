@@ -13,9 +13,9 @@ public class MaximumInteger {
     }
 
     public static void main(String[] args) {
-        Integer xInt = 9, yInt = 14, zInt = 25;
-        Float xF1 = 8.6f, yF1 = 10.8f, zF1 = 19.7f;
-        String xStr="van" , yStr= "demo" , zStr = "yellow";
+        Integer xInt = 29, yInt = 14, zInt = 5;
+        Float xF1 = 18.6f, yF1 = 15.8f, zF1 = 9.7f;
+        String xStr="van" , yStr= "demo" , zStr = "apple";
 
         MaximumInteger.maximum(xInt, yInt, zInt);
         MaximumInteger.maximum(xF1, yF1, zF1);
