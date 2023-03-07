@@ -22,13 +22,26 @@ public class MaximumInteger {
         System.out.println("Maximum Float = " + max);
 
     }
+    public static void testMax(String aStr, String bStr, String cStr) {
+        String max = aStr;
+        if (bStr.compareTo(max) > 0) {
+            max = bStr;
+        }
+        if (cStr.compareTo(max) > 0) {
+            max = cStr;
+        }
+        System.out.println("Maximum String = " + max);
+
+    }
 
     public static void main(String[] args) {
         Integer xInt = 9, yInt = 14, zInt = 25;
         Float xF1 = 8.6f, yF1 = 10.8f, zF1 = 19.7f;
+        String xStr="pear" , yStr= "apple" , zStr = "orange";
 
         MaximumInteger.testMax(xInt, yInt, zInt);
         MaximumInteger.testMax(xF1, yF1, zF1);
+        MaximumInteger.testMax(xStr, yStr, zStr);
     }
 
 }
