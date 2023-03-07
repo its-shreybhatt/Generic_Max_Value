@@ -13,7 +13,7 @@ public class MaximumInteger {
     }
 
     public static void main(String[] args) {
-        Integer xInt = 9, yInt = 14, zInt = 5;
+        Integer xInt = 9, yInt = 14, zInt = 25;
 
         MaximumInteger.testMax(xInt, yInt, zInt);
     }
