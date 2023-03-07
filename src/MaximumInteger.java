@@ -30,4 +30,5 @@ public class MaximumInteger {
         MaximumInteger.testMax(xInt, yInt, zInt);
         MaximumInteger.testMax(xF1, yF1, zF1);
     }
+
 }
