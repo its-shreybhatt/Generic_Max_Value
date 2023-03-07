@@ -14,6 +14,5 @@ public class MaximumInteger {
         Integer xInt = 9, yInt =4, zInt = 5;
 
         MaximumInteger.testMax(xInt,yInt,zInt);
-
     }
 }
