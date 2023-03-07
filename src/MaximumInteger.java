@@ -1,37 +1,15 @@
 public class MaximumInteger {
 
-    public static void testMax(Integer aInt, Integer bInt, Integer cInt) {
-        Integer max = aInt;
-        if (bInt.compareTo(max) > 0) {
-            max = bInt;
+    public static <gen extends Comparable<gen>> gen maximum( gen a, gen b, gen c) {
+        gen max = a;
+        if (b.compareTo(max) > 0) {
+            max = b;
         }
-        if (cInt.compareTo(max) > 0) {
-            max = cInt;
+        if (c.compareTo(max) > 0) {
+            max = c;
         }
-        System.out.println("Maximum Integer = " + max);
-    }
-
-    public static void testMax(Float aF1, Float bF1, Float cF1) {
-        Float max = aF1;
-        if (bF1.compareTo(max) > 0) {
-            max = bF1;
-        }
-        if (cF1.compareTo(max) > 0) {
-            max = cF1;
-        }
-        System.out.println("Maximum Float = " + max);
-
-    }
-    public static void testMax(String aStr, String bStr, String cStr) {
-        String max = aStr;
-        if (bStr.compareTo(max) > 0) {
-            max = bStr;
-        }
-        if (cStr.compareTo(max) > 0) {
-            max = cStr;
-        }
-        System.out.println("Maximum String = " + max);
-
+        System.out.println("Maximum value = " + max);
+        return max;
     }
 
     public static void main(String[] args) {
@@ -39,9 +17,9 @@ public class MaximumInteger {
         Float xF1 = 8.6f, yF1 = 10.8f, zF1 = 19.7f;
         String xStr="van" , yStr= "demo" , zStr = "yellow";
 
-        MaximumInteger.testMax(xInt, yInt, zInt);
-        MaximumInteger.testMax(xF1, yF1, zF1);
-        MaximumInteger.testMax(xStr, yStr, zStr);
+        MaximumInteger.maximum(xInt, yInt, zInt);
+        MaximumInteger.maximum(xF1, yF1, zF1);
+        MaximumInteger.maximum(xStr, yStr, zStr);
     }
 
 }
