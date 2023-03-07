@@ -37,7 +37,7 @@ public class MaximumInteger {
     public static void main(String[] args) {
         Integer xInt = 9, yInt = 14, zInt = 25;
         Float xF1 = 8.6f, yF1 = 10.8f, zF1 = 19.7f;
-        String xStr="van" , yStr= "zebra" , zStr = "orange";
+        String xStr="van" , yStr= "demo" , zStr = "yellow";
 
         MaximumInteger.testMax(xInt, yInt, zInt);
         MaximumInteger.testMax(xF1, yF1, zF1);
