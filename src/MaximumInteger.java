@@ -25,7 +25,7 @@ public class MaximumInteger {
 
     public static void main(String[] args) {
         Integer xInt = 9, yInt = 14, zInt = 25;
-        Float xF1 = 8.6f, yF1 = 3.8f, zF1 = 7.7f;
+        Float xF1 = 8.6f, yF1 = 10.8f, zF1 = 7.7f;
 
         MaximumInteger.testMax(xInt, yInt, zInt);
         MaximumInteger.testMax(xF1, yF1, zF1);
